@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Playfair Display", Serif;
+        letter-spacing: 1px;
+    }
+</style>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
+            <a href="#" class="w3-bar-item w3-button">W.A.C.C</a>
+            <!-- added another button item -->
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="index.html" class="w3-bar-item w3-button">Home</a>
+                <a href="catering.html#about" class="w3-bar-item w3-button">Catering</a>
+                <a href="catering.html#prices" class="w3-bar-item w3-button">Prices</a>
+                <a href="catering.html#menu" class="w3-bar-item w3-button">Menu</a>
+                <a href="catering.html#contact" class="w3-bar-item w3-button">Contact</a>
+                <a href="photos.html" class="w3-bar-item w3-button">Photos</a>
+                <a href="more.html" class="w3-bar-item w3-button">Fun Facts</a>
+                <a href="vision.html" class="w3-bar-item w3-button">Our Vision</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+        <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+            <h1 class="w3-xxlarge">Le Catering</h1>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:1100px">
+
+        <!-- About Section -->
+        <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="imgs/cottoncandy7.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">About Our Catering</h1>
+                <br>
+                <h5 class="w3-center">Professional Service</h5>
+                <p class="w3-large">W.A.C.C will be spreading its services very soon, and you should get in on it as soon as possible! Some sweet discounts will be available for first time catering customers.
+                    <p class="w3-large w3-text-grey w3-hide-medium">Some events that would be perfect for our service include...well, just about anything! We accept events such as birthday parties (adults like cotton candy too!), graduation celebrations, any type of sporting event, school events, even weddings! Just contact us with the information below and we would be delighted to provide the best cotton candy catering service around. </p>
+            </div>
+        </div>
+        <hr>
+
+        <div>
+            <h1 class="w3-center">Prices</h1>
+            <table class="w3-table-all" id="prices">
+                <tr>
+                    <th>Service</th>
+                    <th>Max Hours</th>
+                    <th>Pricing</th>
+                    <th>Cones/Bags/Both</th>
+                </tr>
+                <!-- used color classes for table -->
+                <tr class="w3-pale-red">
+                    <td>Birthday Party</td>
+                    <td>8</td>
+                    <td>dependent on group size</td>
+                    <td>Cones</td>
+                </tr>
+                <tr class="w3-pale-blue">
+                    <td>Sporting Event</td>
+                    <td>8</td>
+                    <td>2.50 cones, 5.00 bags</td>
+                    <td>Both</td>
+                </tr>
+                <tr class="w3-pale-red">
+                    <td>Wedding</td>
+                    <td>10</td>
+                    <td>dependent on group size</td>
+                    <td>Both</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+
+        <!-- Menu Section -->
+        <div class="w3-row w3-padding-64" id="menu">
+            <div class="w3-col l6 w3-padding-large">
+                <h1 class="w3-center">Our Menu</h1>
+                <br>
+                <h4>Boo Blue Raspberry</h4>
+                <p class="w3-text-grey">A sweet berry flavor with a light blue color.</p>
+                <br>
+
+                <h4>Pink Vanilla</h4>
+                <p class="w3-text-grey">A light vanilla flavor with a pink color.</p>
+                <br>
+
+                <h4>Red Cherry</h4>
+                <p class="w3-text-grey">A delicious classic cherry flavor, also with a pink color.</p>
+                <br>
+
+                <h4>Coffee Bean</h4>
+                <p class="w3-text-grey">A deliciously sweet dark roast coffee flavor; guaranteed to perk you up!</p>
+                <br>
+
+                <h4>Latte</h4>
+                <p class="w3-text-grey">A mix of vanilla and coffee for a wonderful vanilla latte flavor.</p>
+            </div>
+
+            <div class="w3-col l6 w3-padding-large">
+                <img src="imgs/cottoncandy8.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" width="500" height="750">
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-64" id="contact">
+            <h1>Contact</h1>
+            <br>
+            <p>We offer full-service cotton candy catering for any event, large or small. Please do not hesitate to contact us!</p>
+            <p class="w3-text-blue-grey w3-large"><b>W.A.C.C., Gold St, 03103 Manchester, New Hampshire</b>
+            </p>
+            <p>You can also contact us by phone, 603-123-4567 or email, wacccatering@catering.com, or you can send us a message here:</p>
+            <form action="/action_page.php" target="_blank">
+                <p>Name
+                    <input class="w3-input w3-padding-16" type="text" required name="Name">
+                </p>
+                <p>Number of People
+                    <input class="w3-input w3-padding-16" type="number" required name="People">
+                </p>
+                <p>Date
+                    <input class="w3-input w3-padding-16" type="datetime-local" required name="date" value="2017-11-16T20:00">
+                </p>
+                <p>Message
+                    <input class="w3-input w3-padding-16" type="text" required name="Message">
+                </p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button>
+                </p>
+            </form>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
